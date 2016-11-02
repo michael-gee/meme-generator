@@ -1,7 +1,7 @@
 var memeImages;
 var currentMeme;
 
-function generateMemes(callback) {
+function generateMemes() {
 
   var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
