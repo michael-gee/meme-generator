@@ -11,7 +11,7 @@ function generateMemes() {
   };
 
   xhttp.open("GET", "https:www.reddit.com/r/dankmemes/.json?&show=all&limit=100", true);
-  xhttp.send();
+  xhttp.send(null);
 } //generateMemes() bracket end
 
 generateMemes();
