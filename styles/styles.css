@@ -1,0 +1,105 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* BODY */
+body {
+  background-color: black;
+  font-size: 62%;
+  margin: 0;
+  margin-top: 40px;
+  font-family: "Permanent Marker", arial, serif;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 10px;
+}
+
+p {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+#intro {
+  margin-top: 10px;
+}
+
+/* CONTAINER DIV */
+.container {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.meme-div {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meme-div img {
+  max-width: 100%;
+}
+
+/* BUTTONS */
+.buttons {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  width: 50px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 5em;
+  font-family: arial;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
+/* REDDIT  */
+.reddit {
+  clear: both;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 2.5em;
+}
+
+.reddit-image {
+  width: 230px;
+  cursor: pointer;
+}
+
+/* FOOTNOTE */
+.footnote {
+  color: white;
+}
+
+/* DISPLAY NONE CLASS */
+.none {
+  display: none;
+}

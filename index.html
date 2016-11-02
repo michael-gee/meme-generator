@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <!-- CONTAINER DIV -->
+    <div class="container">
+      <h1>Meme Generator</h1>
+      <p id="intro">
+        -Dank Memes <br>
+        Content Updates Daily
+      </p>
+
+      <div class="meme-div">
+        <img id="meme" alt="meme image">
+      </div>
+
+      <!-- BUTTONS DIV -->
+      <div class="buttons">
+        <!-- LEFT BUTTON -->
+        <div class="left-arrow button none" onclick="prevMeme()">
+          &#60;
+        </div>
+        <!-- RIGHT BUTTON -->
+        <div class="right-arrow button" onclick="nextMeme()">
+          &#62;
+        </div>
+
+        <!-- REDDIT DIV -->
+        <div class="reddit">
+          <h3>Images provided by:</h3>
+          <a href="https://www.reddit.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Reddit_logo.svg/2000px-Reddit_logo.svg.png" alt="reddit logo" class="reddit-image"></a>
+        </div><!-- REDDIT DIV END -->
+
+      </div>
+
+    </div><!-- CONTAINER DIV END -->
+
+    <p class='footnote'>Coded by Michael Gee</p>
+
+  <script type="text/javascript" src="scripts/scripts.js">
+
+  </script>
+  </body>
+</html>
