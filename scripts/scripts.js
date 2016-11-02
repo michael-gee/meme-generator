@@ -2,6 +2,8 @@ var memeImages;
 var currentMeme;
 
 function generateMemes() {
+  
+  let url = "https:www.reddit.com/r/dankmemes/.json?&show=all&limit=100";
 
   var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -10,7 +12,7 @@ function generateMemes() {
     }
   };
 
-  xhttp.open("GET", "https:www.reddit.com/r/dankmemes/.json?&show=all&limit=100", true);
+  xhttp.open("GET", url, true);
   xhttp.send(null);
 } //generateMemes() bracket end
 
