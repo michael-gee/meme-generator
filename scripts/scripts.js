@@ -21,7 +21,7 @@ generateMemes();
 function storeResponse(json){
   let imageType;
   memeImages = [];
-  currentMeme = 0;
+  currentMeme = 1;
 
   for(let i = 0, x = json.data.children.length; i < x; i++){
 
