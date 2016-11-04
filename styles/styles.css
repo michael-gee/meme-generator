@@ -69,10 +69,6 @@ p {
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .left-arrow {
   float: left;
 }
