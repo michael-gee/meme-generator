@@ -3,7 +3,7 @@ var currentMeme;
 
 function generateMemes() {
   
-  let url = "https:www.reddit.com/r/dankmemes/.json?&show=all&limit=100";
+  let url = "https://www.reddit.com/r/dankmemes/.json?&show=all&limit=100";
 
   var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
